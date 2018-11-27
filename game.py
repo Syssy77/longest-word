@@ -3,6 +3,9 @@ import string
 import random
 import requests
 
+# pylint: disable=missing-docstring
+# pylint: disable=too-few-public-methods
+
 class Game:
     def __init__(self):
         self.grid = []
